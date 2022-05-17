@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vatavarn</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+  <body>
+    <div class="container">
+      <header class="center">
+        <h1 id="title">Vatavarn</h1>
+        <p id="description"><em>Thank you for taking the time to share your concern about our envinornment</em></p>
+      </header>
+  
+      <!-- FORM -->
+      <form action="#" id="survey-form">
+        <div class="survey">
+       <p class="survey-form1">Survey Form</p>
+       <hr>
+      </div>
+  
+         <div class="form-group">
+           <label for="name" id="name-label">Name</label>
+           <input id="name"  class="form-control" type="text" placeholder="Enter your name" required >
+         </div>
+  
+         <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input id="email"  class="form-control" type="email" placeholder="Enter your email" required >
+        </div>
+
+        <div class="form-group">
+          <label for="address" id="address-label">Address</label>
+          <input id="address"  class="form-control" type="text" placeholder="Enter your address" required >
+        </div>
+  
+        <div class="form-group">
+          <label for="number" id="number-label">Age (optional)</label>
+          <input id="number"  class="form-control" type="number" placeholder="Enter your age" required  min="10" max="99">
+        </div>
+        
+        <div class="form-group">
+          <label for="dropdown" id="number-label">Which option best describes your current role?</label>
+          <select name="dropdown" id="dropdown" class="formcontrol" required>
+            <option value="" disabled selected>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full Time Job  ">Full Time Job</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <!-- questions -->
+
+        <div class="form-group">
+          <p>1. How concerned are you about air pollution?</p>
+          <p>
+            <label>
+              <input type="radio" value="extremely concerned" name="answer1" id="extremely concerned" >Extremely concerned
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="slightly concerned" name="answer1" id="slightly concerned">Slightly concerned
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="very concerned" name="answer1" id="very concerned">Very concerned
+            </label>
+          </p>
+
+          
+          <p>
+            <label>
+              <input type="radio" value=" not at all concerned" name="answer1" id=" not at all concerned"> Not at all concerned
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value=" moderately concerned" name="answer1" id=" moderately concerned"> Moderately concerned
+            </label>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <p>2. How concerned are you about the extinction of endangered animals?</p>
+          <p>
+            <label>
+              <input type="radio" value="extremely concerned" name="answer2" id="extremely concerned" >Extremely concerned
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="slightly concerned" name="answer2" id="slightly concerned">Slightly concerned
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="very concerned" name="answer2" id="very concerned">Very concerned
+            </label>
+          </p>
+
+          
+          <p>
+            <label>
+              <input type="radio" value=" not at all concerned" name="answer2" id=" not at all concerned"> Not at all concerned
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value=" Somewhat concerned" name="answer2" id=" Somewhat concerned"> Somewhat concerned
+            </label>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <p>3. Should the Indian government's laws restricting pollution be more strict, less strict, or about as strict as they are now?</p>
+          <p>
+            <label>
+              <input type="radio" value="much more strict" name="answer3" id="much more strict" >Much more strict
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="somewhat less strict" Same="answer3" id="somewhat less strict">Somewhat less strict
+          </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="slightly more strict" name="answer3" id="slightly more strict">Slightly more strict
+            </label>
+          </p>
+
+          
+          <p>
+            <label>
+              <input type="radio" value="much less strict" name="answer3" id="much less strict">Much less strict
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value=" Somewhat more strict" name="answer3" id=" Somewhat more strict"> Somewhat more strict
+            </label>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <p>4. Is the Indian government spending too much time trying to reduce global warming, too little time,or about the right amount of time?</p>
+          <p>
+            <label>
+              <input type="radio" value="much too much" name="answer4" id="much too much" >Much too much
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="somewhat too little" Same="answer4" id="somewhat too little">Somewhat too little
+          </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="slightly too much" name="answer4" id="slightly too much">Slightly too much
+            </label>
+          </p>
+
+          
+          <p>
+            <label>
+              <input type="radio" value="somewhat too much" name="answer4" id="somewhat too much">Somewhat too much
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value="about the right amount" name="answer4" id=" about the right amount"> About the right amount
+            </label>
+          </p>
+        </div>
+
+        <div class="form-group">
+          <p>5.When people get involved in trying to solve environmental problems, how often do you think they make things better?</p>
+          <p>
+            <label>
+              <input type="radio" value="always" name="answer5" id="always" >Always
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="Once in a while" Same="answer5" id="Once in a while">Once in a while
+          </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="radio" value="most of the time" name="answer5" id="most of the time">Most of the time
+            </label>
+          </p>
+
+          
+          <p>
+            <label>
+              <input type="radio" value="never" name="answer5" id="never">Never
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="radio" value="about half the time" name="answer5" id=" about half the time"> About half the time
+            </label>
+          </p>
+        </div>
+  
+        <div class="form-group">
+          <label for="favorite" id="favorite-label">What is the major pollution in your area?</label>
+          <select id="favorite" name="favorite" class="form-control" required>
+            <option value="" disabled selected>Select an option</option>
+          <option value="air pollution">Air pollution</option>
+          <option value="water pollution">Water pollution</option>
+          <option value="soil pollution">Soil pollution</option>
+          <option value="noise pollution">Noise pollution</option>
+        </select>
+        </div>
+  
+        <div class="form-group">
+          <p>What would you like to see improved in your society? (Check all that apply)</p>
+          <p>
+          <label>
+            <input type="checkbox" name="infrastructure" id="infrastructure" value="infrastructure">Infrastructure
+          </label>
+          </p>
+  
+          
+          <p>
+            <label>
+              <input type="checkbox" name="education" id="education" value="education">Education
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="health and wellness" id="health and wellness" value="health and wellness">Health and wellness
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="justice" id="justice" value="justice">Justice
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="safety" id="safety" value="safety">Safety
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="human rights" id="human rights" value="human rights">Human Rights
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="consumer protection" id="consumer protection" value="consumer protection">Consumer Protection
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="markets" id="markets" value="markets">Markets
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="finance" id="finance" value="finance">Finance
+            </label>
+          </p>
+  
+          <p>
+            <label>
+              <input type="checkbox" name="political stability" id="political stability" value="political stability">Political Stability
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="checkbox" name="culture" id="culture" value="culture">Culture
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="checkbox" name="transportation" id="transportation" value="transportation">Transportation
+            </label>
+          </p>
+
+          <p>
+            <label>
+              <input type="checkbox" name="energy" id="energy" value="energy">Energy
+            </label>
+          </p>
+        </div>
+  
+        <div class="form-group">
+          <p>Any comments or suggestions?</p>
+          <textarea name="comment" id="comment" cols="50" rows="10" placeholder="Enter your comment here......"></textarea>
+        </div>
+  
+        <div class="form-group">
+          <button id="submit" type="submit">Done</button>
+        </div>
+  
+       </form>
+      
+    </div>
+    
+  </body>
+  
+  
+</body>
+</html>
